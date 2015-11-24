@@ -31,7 +31,7 @@ $charge = $this->omise_api->create($card_token, $amount ="10000", $description, 
 
 if you charge with capture false, After you confirm order you can capture by this method
 ```
-//$charge_id you got from $charge might be correct to your DBs
+//$charge_id you got from $charge might be collect to your DBs
 $result = $this->omise_api->capture($charge_id);
 ```
 
