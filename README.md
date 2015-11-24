@@ -1,7 +1,9 @@
 # omise-codeigniter
 Easy omise payment library for Codeigniter
 
-- place it to /application/libraries
+```
+place it to /application/libraries
+```
 -----------------------
 
 ## Usage :
