@@ -8,7 +8,9 @@ place it to /application/libraries
 Usage :
 
 //init keys
+
 $this->load->library('omise_api');
+
 $this->omise_api->init('pkey', 'skey');  // replace with your keys
 
 ******
@@ -29,6 +31,7 @@ Capture
 *******
 
 if you charge with capture false, After you confirm order you can capture by this method
+
 $charge_id you got from $charge might be correct to your DBs
 
 $result = $this->omise_api->capture($charge_id);
